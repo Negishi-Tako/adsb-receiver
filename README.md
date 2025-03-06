@@ -36,8 +36,10 @@ Therefore we make many ADS-B receiver,and use this script.
 4. Enter the Cloudflared Service token
     Please Check CloudFlare(one.dash.cloudflare.com)
     Network > Tunnel > Configure or Create Tunnel
+
     Please watch Japanese Article
     https://note.com/keisei_11/n/n05423aa5c65d
+    
     <img src="cftoken.png" width="50%">
     
 ## Options
@@ -67,6 +69,6 @@ By using this script, you acknowledge and agree to the above conditions.
 This project is licensed under the MIT License.
 
 ## Author
-Created by @negishi_tako at https://Keisei11.com
+Created by @negishi_tako at Keisei11.com
 
-<img src="keisei.png" width="50%">
+<a href="https://keisei11.com"><img src="keisei.png" width="50%"></a>
