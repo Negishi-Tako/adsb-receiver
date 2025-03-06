@@ -38,7 +38,7 @@ Therefore we make many ADS-B receiver,and use this script.
     Please Check CloudFlare(one.dash.cloudflare.com)
     Network > Tunnel > Configure or Create Tunnel
 
-    Please watch Japanese Article
+    Please read Japanese Article
     https://note.com/keisei_11/n/n05423aa5c65d
     
     <img src="./img/cftoken.png" width="50%">
