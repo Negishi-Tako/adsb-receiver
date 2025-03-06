@@ -61,3 +61,5 @@ This project is licensed under the MIT License.
 
 ## Author
 Created by @negishi_tako at Keisei11.com
+
+![Keisei](./keisei.png "Keisei")
