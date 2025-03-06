@@ -37,9 +37,16 @@ case $architecture in
         ARCH="arm64"
         URL="https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-arm64.deb"
         ;;
+    3)
+        echo "See the latest release at"
+        echo "https://github.com/cloudflare/cloudflared/releases/"
+        read -p "Enter the URL to install: " URL
+        ;;
     *)
         echo "Invalid option. Exiting."
-        exit 1
+        echo "See the latest release at"
+        echo "https://github.com/cloudflare/cloudflared/releases/"
+        read -p "Enter the URL to install: " URL
         ;;
 esac
 echo "Installing cloudflared for $ARCH..."
@@ -65,7 +72,7 @@ case $nodeexpchoice in
         sudo systemctl enable prometheus-node-exporter
         echo "Successfully installed Node-Exporter."
         ;;
-    N)
+    n)
         echo "Skipping Node-Exporter installation."
         ;;
     *)
@@ -93,17 +100,17 @@ case $fuwchoice in
             Y)
                 sudo ufw allow 9100
                 ;;
-            N)
+            n)
                 ;;
             *)
                 echo "Invalid option. Exiting."
                 exit 1
                 ;;
         esac
-        sudo ufw enable -y
+        sudo ufw enable
         echo "Successfully installed & Setted ufw"
         ;;
-    N)
+    n)
         echo "Skipping ufw installation."
         ;;
     *)

@@ -19,8 +19,8 @@ Therefore we make many ADS-B receiver,and use this script.
 ## Installation
 1. Clone this repository:
    ```sh
-   git clone https://github.com/your-repo/piaware-installer.git
-   cd piaware-installer
+   git clone https://github.com/Negishi-Tako/adsb-receiver
+   cd adsb-receiver
    ```
 
 2. Make the script executable:
@@ -39,6 +39,22 @@ During the installation, you will be prompted to:
 - Enter a Cloudflared service token
 - Install Prometheus Node Exporter (optional)
 - Install and configure UFW firewall (optional)
+
+## Disclaimer
+
+Please be aware of the following when using this script:
+
+1. **Legal Responsibility**  
+   You are solely responsible for any issues arising from the use of this script. Please ensure that you comply with the laws and regulations applicable in your region or country, and seek legal advice if necessary before use.
+
+2. **Adherence to Terms of Service**  
+   This script install with certain services (e.g., PiAware, Cloudflare, etc.). Please make sure to follow the terms of service and policies of these service providers, and avoid any actions that may violate them.
+
+3. **Security and Privacy**  
+   We are not responsible for any security or privacy issues that may arise from the use of this script. Please review and ensure that the script aligns with your security and privacy standards before use.
+
+By using this script, you acknowledge and agree to the above conditions.
+
 
 ## License
 This project is licensed under the MIT License.
