@@ -33,6 +33,13 @@ Therefore we make many ADS-B receiver,and use this script.
    ./install.sh
    ```
 
+4. Enter the Cloudflared Service token
+    Please Check CloudFlare(one.dash.cloudflare.com)
+    Network > Tunnel > Configure or Create Tunnel
+    <img src="cftoken.png" width="50%">
+    Please watch Japanese Article
+    https://note.com/keisei_11/n/n05423aa5c65d
+    
 ## Options
 During the installation, you will be prompted to:
 - Choose your Raspberry Pi architecture for Cloudflared installation
@@ -60,6 +67,6 @@ By using this script, you acknowledge and agree to the above conditions.
 This project is licensed under the MIT License.
 
 ## Author
-Created by @negishi_tako at Keisei11.com
+Created by @negishi_tako at https://Keisei11.com
 
-![Keisei](./keisei.png "Keisei")
+<img src="keisei.png" width="50%">
