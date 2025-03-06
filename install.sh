@@ -66,7 +66,7 @@ echo "Successfully installed cloudflared"
 echo "Installing Node-Exporter(For Surveillance):"
 read -p "You can choose install [Y/n]: " nodeexpchoice
 case $nodeexpchoice in
-    Y)
+    Y | "")
         echo "Installing Node-Exporter..."
         sudo apt install -y prometheus-node-exporter
         sudo systemctl enable prometheus-node-exporter
@@ -85,7 +85,7 @@ esac
 echo "You can choose to install ufw(For Firewall Security)"
 read -p "You can choose install [Y/n]: " fuwchoice
 case $fuwchoice in
-    Y)
+    Y | "")
         echo "Installing ufw(For Firewall Security):"
         sudo apt install -y ufw
         sudo systemctl enable ufw
@@ -97,7 +97,7 @@ case $fuwchoice in
         sudo ufw allow 8080
         echo "Allowing port 9190 for Node-Exporter"
         case $nodeexpchoice in
-            Y)
+            Y | "")
                 sudo ufw allow 9100
                 ;;
             n)
