@@ -95,7 +95,7 @@ case $fuwchoice in
         sudo ufw allow from $sshallow to any port $sshport
         echo "Allowing port 8080 for PiAware"
         sudo ufw allow 8080
-        echo "Allowing port 9190 for Node-Exporter"
+        echo "Allowing port 9100 for Node-Exporter"
         case $nodeexpchoice in
             Y | "")
                 sudo ufw allow 9100
